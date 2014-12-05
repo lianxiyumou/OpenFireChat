@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="edit_background">#f2e1d7</color>
+    <drawable name="blank">#00ffffff</drawable>
+    <color name="hint_foreground">#5b5b5b</color>
+    <color name="black">#000000</color>
+    <color name="balance_text">#92828d</color>
+    <color name="content">#7f5740</color>
+    <color name="chatting_bg">#EEEFF1</color>
+    <color name="chat_selected">#f31e5b</color>
+    <color name="divider_blue">#D4E4F1</color>
+    <color name="dark_gray">#444444</color>
+    <color name="gray">#777777</color>
+    <color name="gcall_state_hint">#b8b6b7</color>
+    <color name="green">#00FF00</color>
+    <color name="light_grey">#F4F4F4</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="light_yellow">#e1c00f</color>
+    <color name="lake_blue">#1E90FF</color>
+    <color name="next_btn_disabled">#CCCCCC</color>
+    <color name="prelogin_bg">#20E0EBF5</color>
+    <color name="red">#CC0000</color>
+    <color name="text_hint">#b2b2b2</color>
+    <color name="text_hint_purple">#ab91ad</color>
+    <color name="white">#FFFFFF</color>
+    <color name="rank_rich">#461906</color>
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+    <color name="time">#d8b8a8</color>
+    <color name="trans70_white">#b2ffffff</color>
+    <color name="trans75_black">#CC000000</color>
+    <color name="trans_black">#7f000000</color>
+    <color name="voice_empty_hint">#575757</color>
+    <color name="wall_popup_bg">#eefef0a0</color>
+	<color name="wall_popup_bg_pressed">#ffeee090</color>
+	<color name="user_profile_fieldset">#099d85</color>
+	<color name="pay_bg">#fff0e8e1</color>
+	<color name="pay_cost">#ffffe0da</color>
+	<color name="pay_titletext_color">#ff464640</color>
+    <color name="pay_pricetext_color">#ffe74c3c</color>
+    <color name="list_bg_start">#ffefefef</color>
+    <color name="list_bg_end">#ffefefef</color>
+    <color name="linearylayout_bg">#ffe8e8e8</color>
+    <color name="buttom_txt_color">#ff848484</color>
+    <color name="bit_white">#d6d6d6</color>
+    <color name="bottombar_text_normal_color">#ffa5a5a5</color>
+    <color name="userinfo_textcolor">#121212</color>
+    <color name="userinfo_myinfotextcolor">#ab8976</color>
+    <color name="my_wallet_title">#986f5b</color>
+    <color name="my_wallet_tip">#545353</color>
+    
+    <color name="gold_btn_disable">#e8cab8</color>
+    
+    <color name="block_1_normal">#e07ec7</color>
+    <color name="block_1_pressed">#ad4392</color>
+    <color name="block_2_normal">#e4c380</color>
+    <color name="block_2_pressed">#bf9746</color>
+    <color name="block_3_normal">#78d1cf</color>
+    <color name="block_3_pressed">#40a2a0</color>
+    <!-- Common color -->
+    <color name="common_bg">#fbf6f3</color>
+    <color name="common_bg_normal">#fbf6f3</color>
+    <color name="common_bg_pressed">#f2e1d7</color>
+    
+    <color name="common_font_dark">#080808</color>
+    <color name="common_font_color">#121212</color>
+    <color name="common_font_minor">#282828</color>
+    <color name="common_font_time">#d6b8a8</color>
+    <color name="common_font_hint">#986b53</color>
+    
+    <color name="common_font_white_normal">#ffffff</color>
+    <color name="common_font_white_pressed">#dddddd</color>
+    <color name="common_font_black_normal">#121212</color>
+    <color name="common_font_black_pressed">#282828</color>
+    
+    <color name="common_slider">#e5d1c6</color>
+    <color name="common_red">#e75a53</color>
+    <color name="common_red_pressed">#d3443c</color>
+    <color name="common_gold">#e7c253</color>
+    <color name="common_orange">#f7a4a0</color>
+    <color name="common_divider">#f2e8e2</color>
+    <color name="common_notice">#f2e1d7</color>
+    
+    <color name="chatting_from">#252424</color>
+    <color name="info_hint">#9c9492</color>
+    
+    <color name="mark">#f5e8e1</color>
+    
+    <!-- TabMe -->
+    <color name="tab_silder">#e5d1c6</color>
+    
+    <!-- PresentMarket -->
+    <color name="present_title">#986f5b</color>
+    <color name="present_score">#7edde0</color>
+    <color name="present_dialog_title">#c8a794</color>
+    <color name="present_dialog_charming">#c8a794</color>
+    
+    <!-- MoodWall -->
+    <color name="moodsing">#F6CBCC</color>
+    <color name="moodsay">#CEF6F6</color>
+    <color name="moodjoke">#F2E4BB</color>
+    
+    <!-- Meeting -->
+    <color name="play_bg">#88434343</color>
+    <color name="play_time">#986f5b</color>
+    <color name="meeting_tip">#6d6866</color>
+    
+    <!-- Voice -->
+    <color name="divider_color">#F9F0EA</color>
+    
+    <!-- SubIM -->
+    <color name="gift_tip">#F9E9AA</color>
+    <color name="gift_tip_over">#EBE1D7</color>
+    
+    
+</resources>

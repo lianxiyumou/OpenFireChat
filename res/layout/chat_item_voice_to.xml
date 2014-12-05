@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="2014-11-18"/>
+    
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_alignParentRight="true"
+        android:gravity="right">
+        
+        <LinearLayout 
+            android:id="@+id/voice_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:background="@drawable/selector_myself_chat_msg_bg">
+            <ImageView 
+                android:id="@+id/voice_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/my_voice_3"/>	        
+           	<TextView 
+           	    android:id="@+id/voice_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="10s"/>	        
+        </LinearLayout>         
+        
+        <ImageView 
+            android:id="@+id/head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@id/voice_layout"
+            android:layout_alignBottom="@id/voice_layout"
+            android:src="@drawable/myhead"/>        
+ 
+    </RelativeLayout>
+
+</RelativeLayout>

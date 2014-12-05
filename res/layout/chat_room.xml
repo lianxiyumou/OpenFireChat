@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <RelativeLayout
+        android:id="@+id/chat_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/main_top_bg" >
+
+     	<TextView 
+     	    android:id="@+id/title"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:text="your"
+     	    android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <com.example.openfirechat.view.RefreshListView
+        android:id="@+id/chatting_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fastScrollEnabled="true"
+        android:paddingBottom="5dp"
+        android:background="#efeff4"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />     
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/foot_view_bg"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+        <ImageButton
+            android:id="@+id/chat_bottom_keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_chat_keyboark_btn_bg" />        	
+        <ImageButton
+            android:id="@+id/chat_bottom_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_chat_voice_btn_bg" />   
+        <ImageButton
+            android:id="@+id/btn_more"
+            android:layout_toRightOf="@id/chat_bottom_voice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_chat_more_btn_bg"
+            android:layout_marginLeft="5dp" />      
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_chat_send_btn_bg" />            
+        <EditText 
+            android:id="@+id/input"
+            android:layout_toLeftOf="@id/send"
+            android:layout_toRightOf="@id/btn_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+			android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"            
+            android:textSize="16sp"
+            android:background="@drawable/chat_edittext_bg"/> 
+        <Button 
+            android:id="@+id/record"
+            android:layout_toLeftOf="@id/send"
+            android:layout_toRightOf="@id/btn_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+			android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"   
+            android:visibility="invisible"
+            android:gravity="center"      
+            android:text="按住说话"
+            android:background="@drawable/selector_chat_record_btn_bg"/> 
+      
+    </RelativeLayout>
+   
+    <GridView
+        android:id="@+id/more_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="200.0dip"
+        android:background="#f5f5f5"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:visibility="gone" >
+    </GridView>
+    
+    <com.example.openfirechat.view.EmojiView
+        android:id="@+id/emoji_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone" >
+    </com.example.openfirechat.view.EmojiView>    
+    
+</LinearLayout>

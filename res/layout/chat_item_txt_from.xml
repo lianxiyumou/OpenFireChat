@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="2014-11-18"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+        <ImageView 
+            android:id="@+id/head"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/friendhead"/>        
+	    <TextView 
+	        android:id="@+id/txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="nihao"
+	        android:maxWidth="150dp"
+	        android:background="@drawable/selector_yourself_chat_msg_bg"/>        
+
+    </LinearLayout>
+    
+
+</RelativeLayout>

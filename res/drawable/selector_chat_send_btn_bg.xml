@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/chat_send_bt_pressed_bg" android:state_pressed="true"/>
+    <!-- 点击选中的背景 -->
+    <item android:drawable="@drawable/chat_send_bt_pressed_bg" android:state_selected="true"/>
+    <!-- 选择时的背景 -->
+    <item android:drawable="@drawable/chat_send_bt_normal_bg" android:state_window_focused="false"/>
+    <!-- 设置默认背景 -->
+
+</selector>
