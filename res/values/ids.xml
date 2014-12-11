@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+ 	<item type="id" name="tabhost">false</item>
+ 	<item type="id" name="tab_group">false</item>
+    <item type="id" name="tab_friend">false</item>
+    <item type="id" name="tab_unread_friend_tv">false</item>
+    <item type="id" name="tab_im">false</item>
+    <item type="id" name="tab_unread_im_tv">false</item>    
+</resources>

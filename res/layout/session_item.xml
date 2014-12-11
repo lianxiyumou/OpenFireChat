@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView 
+        android:id="@+id/image"
+        android:layout_width="54.0dip"
+        android:layout_height="54.0dip"
+        android:src="@drawable/mini_avatar_shadow"/>
+    
+	<TextView 
+	    android:id="@+id/friend"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@id/image"
+	    android:layout_toRightOf="@id/image"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginTop="4dp"
+	    android:text="无名"/>
+	<TextView 
+	    android:id="@+id/content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="bottom"
+	    android:layout_below="@id/friend"
+	    android:layout_toRightOf="@id/image"
+	    android:layout_alignBottom="@id/image"
+	    android:layout_marginLeft="4dp"
+	    android:layout_marginBottom="4dp"
+	    android:text="我就是我 我。。。。。"/>
+	<TextView 
+	    android:id="@+id/time"
+	    android:text="2014-05-22"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:gravity="right"
+	    android:layout_marginTop="4dp"
+	    android:layout_alignTop="@id/image"
+	    android:layout_toRightOf="@id/friend"/>
+
+</RelativeLayout>

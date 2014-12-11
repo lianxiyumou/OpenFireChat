@@ -4,4 +4,11 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <!-- 底部弹窗 -->
+    <dimen name="dialog_magin">18.0dip</dimen>
+    <dimen name="dialog_item_height">40.0dip</dimen>
+    <dimen name="dialog_item_gap">8.0dip</dimen>
+    <dimen name="dialog_padding_top">10.0dip</dimen>
+    <dimen name="dialog_fontsize">16.0dip</dimen>    
+    
 </resources>

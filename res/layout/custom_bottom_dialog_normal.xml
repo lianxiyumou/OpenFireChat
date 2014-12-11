@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/DialogTextStyle"
+        android:id="@+id/popup_text"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialog_item_height"
+        android:layout_marginTop="@dimen/dialog_item_gap"
+        android:layout_marginLeft="@dimen/dialog_magin"
+        android:layout_marginRight="@dimen/dialog_magin"
+        android:background="@drawable/selector_dialog_white_button_bg"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:textSize="@dimen/dialog_fontsize" />
+
+</LinearLayout>

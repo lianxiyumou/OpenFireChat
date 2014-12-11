@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.openfirechat.MainActivity"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+        android:id="@+id/chat_top_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/main_top_bg" >
+
+     	<TextView 
+     	    android:id="@+id/title"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:text="消息"
+     	    android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <com.example.openfirechat.view.RefreshListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fastScrollEnabled="true"
+        android:paddingBottom="5dp"
+        android:background="#efeff4"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />  
+
+</LinearLayout>

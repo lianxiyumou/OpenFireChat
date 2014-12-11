@@ -2,6 +2,7 @@
 <resources>
     <color name="edit_background">#f2e1d7</color>
     <drawable name="blank">#00ffffff</drawable>
+    <drawable name="white">#ffffffff</drawable>
     <color name="hint_foreground">#5b5b5b</color>
     <color name="black">#000000</color>
     <color name="balance_text">#92828d</color>

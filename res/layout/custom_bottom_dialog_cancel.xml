@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/DialogCancelTextStyle"
+        android:id="@+id/popup_text"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialog_item_height"
+        android:layout_margin="@dimen/dialog_magin"
+        android:background="@drawable/selector_dialog_gray_button_bg"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16.0sp" />
+
+</LinearLayout>

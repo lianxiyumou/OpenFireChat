@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost android:id="@id/tabhost" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <LinearLayout android:id="@+id/main_frame"
+            android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+
+            <FrameLayout android:id="@android:id/tabcontent" 
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" >
+            </FrameLayout>
+            
+<!--             Hide it to create self-defined widget -->
+            <TabWidget android:id="@android:id/tabs" 
+                android:visibility="gone"
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_weight="0.0" />
+            
+            <LinearLayout android:gravity="bottom" 
+                android:layout_gravity="bottom" 
+                android:orientation="horizontal" 
+                android:id="@id/tab_group" 
+                android:background="@drawable/ncfooter_bg" 
+                android:paddingTop="1.0dip" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+                
+                <FrameLayout android:background="@null" 
+                    android:layout_width="0.0dip" 
+                    android:layout_height="fill_parent" 
+                    android:layout_weight="1.0">
+                    
+                    <LinearLayout android:gravity="bottom|center" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent">
+                        <RadioButton android:id="@id/tab_friend" 
+                            android:checked="true" 
+                            android:text="好友" 
+                            android:drawableTop="@drawable/tab_square" 
+                            style="@style/NCTabButton" />
+                    </LinearLayout>          
+                    <LinearLayout android:gravity="top|right|center" 
+                        android:paddingRight="4.0dip" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent">
+                        <TextView android:textSize="10.0dip" 
+                            android:textColor="@color/white" 
+                            android:gravity="center" 
+                            android:id="@id/tab_unread_friend_tv" 
+                            android:background="@drawable/tab_unread_bg" 
+                            android:visibility="invisible" 
+                            android:layout_width="wrap_content" 
+                            android:layout_height="wrap_content" 
+                            android:text="@null" />
+                    </LinearLayout>
+                </FrameLayout>
+                
+                <FrameLayout android:background="@null" 
+                    android:layout_width="0.0dip" 
+                    android:layout_height="fill_parent" 
+                    android:layout_weight="1.0">
+                    
+                    <LinearLayout android:gravity="bottom|center" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent">                        
+                        <RadioButton android:id="@id/tab_im" 
+                            android:checked="false" 
+                            android:text="@string/tab_im" 
+                            android:drawableTop="@drawable/tab_im" 
+                            style="@style/NCTabButton" />
+                    </LinearLayout>                    
+                    <LinearLayout android:gravity="top|right|center" 
+                        android:paddingRight="12.0dip" 
+                        android:layout_width="fill_parent" 
+                        android:layout_height="fill_parent">
+                        <TextView android:textSize="10.0dip" 
+                            android:textColor="@color/white" 
+                            android:gravity="center" 
+                            android:id="@id/tab_unread_im_tv" 
+                            android:background="@drawable/tab_unread_bg" 
+                            android:visibility="invisible" 
+                            android:layout_width="wrap_content" 
+                            android:layout_height="wrap_content" 
+                            android:text="@null" />
+                    </LinearLayout>
+                </FrameLayout>
+                
+            </LinearLayout>
+		</LinearLayout>
+</TabHost>
